@@ -54,7 +54,7 @@ export default function Home() {
       <div className="bg-dark navbar-show" data-new-gr-c-s-check-loaded="14.1010.0" data-gr-ext-installed="" style={{"--tmb-scrollbar-width": "0px"}}>
         <header className="navbar navbar-top navbar-expand-lg navbar-dark navbar-fixed">
           <div className="container">
-            <a href="/" className="nav-link active">
+            <a href={assetPath("/")} className="nav-link active">
               <span className="nav-link-name title-top">Shehab.</span>
             </a>
             <a className="navbar-toggle order-4" href="#navbar-mobile-style-2" data-fancybox="" data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
@@ -64,7 +64,7 @@ export default function Home() {
             </a>
             <ul className="nav navbar-nav order-2">
               <li className="nav-item navbar-dropdown navbar-dropdown-mega">
-                <a href="/" className="nav-link active">
+                <a href={assetPath("/")} className="nav-link active">
                   <span className="nav-link-name">work</span>
                   <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 9L5 5L1 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -74,7 +74,7 @@ export default function Home() {
                   <div className="container">
                     <ul role="menu" className="navbar-nav row gh-1 gv-3">
                       <li className="nav-item col-md-6 col-lg-3 col-xl-2">
-                        <a href="/axios-page" className="nav-link">
+                        <a href={assetPath("/axios-page/")} className="nav-link">
                           <span className="nav-link-image">
                             <img src={assetPath("/dist/assets/images/single-portfolio/Axios Banner.jpg")} alt="Axios news platform interface showing AI-powered digital news delivery tools" />
                           </span>
@@ -82,7 +82,7 @@ export default function Home() {
                         </a>
                       </li>
                       <li className="nav-item col-md-6 col-lg-3 col-xl-2">
-                        <a href="/quickbooks-casestudy" className="nav-link">
+                        <a href={assetPath("/quickbooks-casestudy/")} className="nav-link">
                           <span className="nav-link-image">
                             <img src={assetPath("/dist/assets/images/single-portfolio/AppConnect.jpg")} alt="Intuit QuickBooks AppConnect interface for small business retail solutions" />
                           </span>
@@ -90,7 +90,7 @@ export default function Home() {
                         </a>
                       </li>
                       <li className="nav-item col-md-6 col-lg-3 col-xl-2">
-                        <a href="/prudentialdesign" className="nav-link">
+                        <a href={assetPath("/prudentialdesign/")} className="nav-link">
                           <span className="nav-link-image">
                             <img src={assetPath("/dist/assets/images/single-portfolio/Prubanner.jpg")} alt="Prudential PGIM financial services design work showcasing enterprise solutions" />
                           </span>
@@ -98,7 +98,7 @@ export default function Home() {
                         </a>
                       </li>
                       <li className="nav-item col-md-6 col-lg-3 col-xl-2">
-                        <a href="/wayfindingdesign" className="nav-link">
+                        <a href={assetPath("/wayfindingdesign/")} className="nav-link">
                           <span className="nav-link-image">
                             <img src={assetPath("/dist/assets/images/single-portfolio/eyetracking.gif")} alt="Eye tracking visualization showing user gaze patterns for wayfinding design research" />
                           </span>
@@ -110,7 +110,7 @@ export default function Home() {
                 </div>
               </li>
               <li className="nav-item navbar-dropdown">
-                <a href="/aboutme" className="nav-link">
+                <a href={assetPath("/aboutme/")} className="nav-link">
                   <span className="nav-link-name">about</span>
                   <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 9L5 5L1 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -138,7 +138,7 @@ export default function Home() {
           </div>
           <div className="navbar-head">
             <div className="container">
-              <a href="/" className="nav-link active">
+              <a href={assetPath("/")} className="nav-link active">
                 <span className="nav-link-name title-top">Shehab.</span>
               </a>
               <a className="navbar-toggle" href="#" data-fancybox-close="">
@@ -154,7 +154,7 @@ export default function Home() {
                 <div className="navbar-body">
                   <ul className="nav navbar-nav navbar-nav-collapse">
                     <li className="nav-item navbar-collapse active">
-                      <a href="/" className="nav-link collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="navbarCollapseHome">
+                      <a href={assetPath("/")} className="nav-link collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="navbarCollapseHome">
                         <span className="nav-link-name">work</span>
                         <svg className="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M1 11L6 6L1 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -163,22 +163,22 @@ export default function Home() {
                       <div className="navbar-collapse-menu collapse" id="navbarCollapseHome">
                         <ul className="nav navbar-nav">
                           <li className="nav-item">
-                            <a href="/axios-page" className="nav-link">
+                            <a href={assetPath("/axios-page/")} className="nav-link">
                               <span className="nav-link-name">Axios</span>
                             </a>
                           </li>
                           <li className="nav-item">
-                            <a href="/quickbooks-casestudy" className="nav-link">
+                            <a href={assetPath("/quickbooks-casestudy/")} className="nav-link">
                               <span className="nav-link-name">Intuit</span>
                             </a>
                           </li>
                           <li className="nav-item">
-                            <a href="/prudentialdesign" className="nav-link">
+                            <a href={assetPath("/prudentialdesign/")} className="nav-link">
                               <span className="nav-link-name">Prudential</span>
                             </a>
                           </li>
                           <li className="nav-item">
-                            <a href="/wayfindingdesign" className="nav-link">
+                            <a href={assetPath("/wayfindingdesign/")} className="nav-link">
                               <span className="nav-link-name">Wayfinding Design</span>
                             </a>
                           </li>
@@ -186,7 +186,7 @@ export default function Home() {
                       </div>
                     </li>
                     <li className="nav-item navbar-collapse">
-                      <a href="/aboutme" className="nav-link collapsed" aria-expanded="false" aria-controls="navbarCollapseProjects">
+                      <a href={assetPath("/aboutme/")} className="nav-link collapsed" aria-expanded="false" aria-controls="navbarCollapseProjects">
                         <span className="nav-link-name ">about</span>
                         <svg className="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M1 11L6 6L1 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -259,28 +259,28 @@ export default function Home() {
           </div>
           
           <div className="container">
-            <div>
+            <div className="row">
               <div className="col-12 col-lg-10">
                 <div className="pt-70 pb-160">
                   <ul className="nav flex-column interactive-links interactive-links-style-2 text-white" data-show-duration="900" data-show-delay="150">
                     <li className="nav-item">
                       <img className="interactive-links-image" src={assetPath("/dist/assets/images/single-portfolio/Axios Banner.jpg")} alt="Axios news platform interface showing AI-powered digital news delivery tools" style={{}} />
-                      <a href="/axios-page" className="nav-link h1 links-new">Axios</a>
+                      <a href={assetPath("/axios-page/")} className="nav-link h1 links-new">Axios</a>
                       <p className="subtitle new-sub">Elevating digital news delivery through AI-powered tools for both consumers and newsrooms.</p>
                     </li>
                     <li className="nav-item">
                       <img className="interactive-links-image" src={assetPath("/dist/assets/images/single-portfolio/quickbookscasestudybanner.png")} alt="Intuit QuickBooks case study banner showing small business retail solutions" style={{}} />
-                      <a href="/quickbooks-casestudy" className="nav-link h1 links-new">Intuit</a>
+                      <a href={assetPath("/quickbooks-casestudy/")} className="nav-link h1 links-new">Intuit</a>
                       <p className="subtitle new-sub">Extending the utility of small businesses to help them compete with major retailers.</p>
                     </li>
                     <li className="nav-item">
                       <img className="interactive-links-image" src={assetPath("/dist/assets/images/single-portfolio/Prubanner.jpg")} alt="Prudential PGIM financial services design work showcasing enterprise solutions" style={{}} />
-                      <a href="/prudentialdesign" className="nav-link h1 links-new">Prudential</a>
+                      <a href={assetPath("/prudentialdesign/")} className="nav-link h1 links-new">Prudential</a>
                       <p className="subtitle new-sub">A collection of work at the finance giant.</p>
                     </li>
                     <li className="nav-item">
                       <img className="interactive-links-image" src={assetPath("/dist/assets/images/single-portfolio/EyeTrackingClip.gif")} alt="Eye tracking visualization showing user gaze patterns for wayfinding design research" style={{}} />
-                      <a href="/wayfindingdesign" className="nav-link h1 links-new">Wayfinding Design</a>
+                      <a href={assetPath("/wayfindingdesign/")} className="nav-link h1 links-new">Wayfinding Design</a>
                       <p className="subtitle new-sub">Enhancing the wayfinding experience of NJIT's Hillier Collage of Art+Design.</p>
                     </li>
                   </ul>
@@ -295,7 +295,7 @@ export default function Home() {
             <hr className="mb-10 pb-30" />
             <div className="row gh-1 gv-2">
               <div className="col-12 col-md mt-md-04">
-                <a href="/">
+                <a href={assetPath("/")}>
                   <img width="108" src={assetPath("/dist/assets/images/ShehabWhite.svg")} alt="Shehab Ibrahim logo in white" />
                 </a>
               </div>
