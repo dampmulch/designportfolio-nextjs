@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { assetPath } from '../utils/assetPath'
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
         <title>Shehab. | Design Portfolio</title>
         <meta name="description" content="Collection of design work." />
         <meta name="author" content="Dexad" />
-        <link rel="icon" type="image/png" href="/dist/assets/images/favicon.png" />
+        <link rel="icon" type="image/png" href={assetPath("/dist/assets/images/favicon.png")} />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         
         {/* Google Fonts */}
@@ -18,10 +19,10 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet" />
         
         {/* Styles */}
-        <link rel="stylesheet" href="/dist/assets/vendor/swiper/dist/css/swiper.min.css" />
-        <link rel="stylesheet" href="/dist/assets/vendor/fancybox/dist/jquery.fancybox.min.css" />
-        <link rel="stylesheet" href="/dist/assets/css/normal.min.css" />
-        <link rel="stylesheet" href="/dist/assets/css/custom.css" />
+        <link rel="stylesheet" href={assetPath("/dist/assets/vendor/swiper/dist/css/swiper.min.css")} />
+        <link rel="stylesheet" href={assetPath("/dist/assets/vendor/fancybox/dist/jquery.fancybox.min.css")} />
+        <link rel="stylesheet" href={assetPath("/dist/assets/css/normal.min.css")} />
+        <link rel="stylesheet" href={assetPath("/dist/assets/css/custom.css")} />
         <link rel="stylesheet" href="https://use.typekit.net/vbq8zim.css" />
         
         {/* Google Analytics */}
@@ -59,22 +60,22 @@ export default function Home() {
                 <div className="pt-70 pb-160">
                   <ul className="nav flex-column interactive-links interactive-links-style-2 text-white data-show-duration=900 datashow-delay= 150">
                     <li className="nav-item">
-                      <img className="interactive-links-image" src="/dist/assets/images/single-portfolio/Axios Banner.jpg" alt="Axios news platform interface showing AI-powered digital news delivery tools" />
+                      <img className="interactive-links-image" src={assetPath("/dist/assets/images/single-portfolio/Axios Banner.jpg")} alt="Axios news platform interface showing AI-powered digital news delivery tools" />
                       <a href="/axios-page" className="nav-link h1 links-new">Axios</a>
                       <p className="subtitle new-sub">Elevating digital news delivery through AI-powered tools for both consumers and newsrooms.</p>
                     </li>
                     <li className="nav-item">
-                      <img className="interactive-links-image" src="/dist/assets/images/single-portfolio/quickbookscasestudybanner.png" alt="Intuit QuickBooks case study banner showing small business retail solutions" />
+                      <img className="interactive-links-image" src={assetPath("/dist/assets/images/single-portfolio/quickbookscasestudybanner.png")} alt="Intuit QuickBooks case study banner showing small business retail solutions" />
                       <a href="/quickbooks-casestudy" className="nav-link h1 links-new">Intuit</a>
                       <p className="subtitle new-sub">Extending the utility of small businesses to help them compete with major retailers.</p>
                     </li>
                     <li className="nav-item">
-                      <img className="interactive-links-image" src="/dist/assets/images/single-portfolio/Prubanner.jpg" alt="Prudential PGIM financial services design work showcasing enterprise solutions" />
+                      <img className="interactive-links-image" src={assetPath("/dist/assets/images/single-portfolio/Prubanner.jpg")} alt="Prudential PGIM financial services design work showcasing enterprise solutions" />
                       <a href="/prudentialdesign" className="nav-link h1 links-new">Prudential</a>
                       <p className="subtitle new-sub">A collection of work at the finance giant.</p>
                     </li>
                     <li className="nav-item">
-                      <img className="interactive-links-image" src="/dist/assets/images/single-portfolio/EyeTrackingClip.gif" alt="Eye tracking visualization showing user gaze patterns for wayfinding design research" />
+                      <img className="interactive-links-image" src={assetPath("/dist/assets/images/single-portfolio/EyeTrackingClip.gif")} alt="Eye tracking visualization showing user gaze patterns for wayfinding design research" />
                       <a href="/wayfindingdesign" className="nav-link h1 links-new">Wayfinding Design</a>
                       <p className="subtitle new-sub">Enhancing the wayfinding experience of NJIT's Hillier Collage of Art+Design.</p>
                     </li>

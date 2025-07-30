@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { assetPath } from '../utils/assetPath'
 
 export default function Header() {
   return (
@@ -27,7 +28,7 @@ export default function Header() {
                     <li className="nav-item col-md-6 col-lg-3 col-xl-2">
                       <Link href="/axios-page" className="nav-link">
                         <span className="nav-link-image">
-                          <img src="/dist/assets/images/single-portfolio/Axios Banner.jpg" alt="Axios news platform interface showing AI-powered digital news delivery tools" />
+                          <img src={assetPath("/dist/assets/images/single-portfolio/Axios Banner.jpg")} alt="Axios news platform interface showing AI-powered digital news delivery tools" />
                         </span>
                         <span className="nav-link-name">Axios</span>
                       </Link>
@@ -35,7 +36,7 @@ export default function Header() {
                     <li className="nav-item col-md-6 col-lg-3 col-xl-2">
                       <Link href="/quickbooks-casestudy" className="nav-link">
                         <span className="nav-link-image">
-                          <img src="/dist/assets/images/single-portfolio/AppConnect.jpg" alt="Intuit QuickBooks AppConnect interface for small business retail solutions" />
+                          <img src={assetPath("/dist/assets/images/single-portfolio/AppConnect.jpg")} alt="Intuit QuickBooks AppConnect interface for small business retail solutions" />
                         </span>
                         <span className="nav-link-name">Intuit</span>
                       </Link>
@@ -43,7 +44,7 @@ export default function Header() {
                     <li className="nav-item col-md-6 col-lg-3 col-xl-2">
                       <Link href="/prudentialdesign" className="nav-link">
                         <span className="nav-link-image">
-                          <img src="/dist/assets/images/single-portfolio/Prubanner.jpg" alt="Prudential PGIM financial services design work showcasing enterprise solutions" />
+                          <img src={assetPath("/dist/assets/images/single-portfolio/Prubanner.jpg")} alt="Prudential PGIM financial services design work showcasing enterprise solutions" />
                         </span>
                         <span className="nav-link-name">Prudential/PGIM</span>
                       </Link>
@@ -51,7 +52,7 @@ export default function Header() {
                     <li className="nav-item col-md-6 col-lg-3 col-xl-2">
                       <Link href="/wayfindingdesign" className="nav-link">
                         <span className="nav-link-image">
-                          <img src="/dist/assets/images/single-portfolio/eyetracking.gif" alt="Eye tracking visualization showing user gaze patterns for wayfinding design research" />
+                          <img src={assetPath("/dist/assets/images/single-portfolio/eyetracking.gif")} alt="Eye tracking visualization showing user gaze patterns for wayfinding design research" />
                         </span>
                         <span className="nav-link-name">Wayfinding Design</span>
                       </Link>
@@ -69,7 +70,7 @@ export default function Header() {
               </Link>
             </li>
             <li className="nav-item navbar-dropdown">
-              <a target="_blank" href="/dist/resume.pdf" className="nav-link">
+              <a target="_blank" href={assetPath("/dist/resume.pdf")} className="nav-link">
                 <span className="nav-link-name">resume</span>
                 <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1 9L5 5L1 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -145,7 +146,7 @@ export default function Header() {
                     </Link>
                   </li>
                   <li className="nav-item navbar-collapse">
-                    <a target="_blank" href="/dist/resume.pdf" className="nav-link collapsed" aria-expanded="false" aria-controls="navbarCollapsePages">
+                    <a target="_blank" href={assetPath("/dist/resume.pdf")} className="nav-link collapsed" aria-expanded="false" aria-controls="navbarCollapsePages">
                       <span className="nav-link-name">resume</span>
                       <svg className="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 11L6 6L1 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>

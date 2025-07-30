@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { assetPath } from '../utils/assetPath'
 
 export default function Footer() {
   return (
@@ -8,7 +9,7 @@ export default function Footer() {
         <div className="row gh-1 gv-2">
           <div className="col-12 col-md mt-md-04">
             <Link href="/">
-              <img width="108" src="/dist/assets/images/ShehabWhite.svg" alt="Shehab Ibrahim logo in white" />
+              <img width="108" src={assetPath("/dist/assets/images/ShehabWhite.svg")} alt="Shehab Ibrahim logo in white" />
             </Link>
           </div>
           <div className="col-12 col-md-4 mt-md-04">

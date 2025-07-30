@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { assetPath } from '../utils/assetPath'
 
 export default function AboutMe() {
   return (
@@ -8,16 +9,16 @@ export default function AboutMe() {
       <Head>
         <title>About | Shehab Ibrahim</title>
         <meta name="description" content="About Shehab Ibrahim - Product Designer" />
-        <link rel="icon" type="image/png" href="/dist/assets/images/favicon.png" />
+        <link rel="icon" type="image/png" href={assetPath("/dist/assets/images/favicon.png")} />
         
         {/* Google Fonts */}
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
         
         {/* Styles */}
-        <link rel="stylesheet" href="/dist/assets/vendor/swiper/dist/css/swiper.min.css" />
-        <link rel="stylesheet" href="/dist/assets/vendor/fancybox/dist/jquery.fancybox.min.css" />
-        <link rel="stylesheet" href="/dist/assets/css/normal.min.css" />
-        <link rel="stylesheet" href="/dist/assets/css/custom.css" />
+        <link rel="stylesheet" href={assetPath("/dist/assets/vendor/swiper/dist/css/swiper.min.css")} />
+        <link rel="stylesheet" href={assetPath("/dist/assets/vendor/fancybox/dist/jquery.fancybox.min.css")} />
+        <link rel="stylesheet" href={assetPath("/dist/assets/css/normal.min.css")} />
+        <link rel="stylesheet" href={assetPath("/dist/assets/css/custom.css")} />
       </Head>
 
       <div className="bg-light">
