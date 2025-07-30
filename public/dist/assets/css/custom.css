@@ -1,0 +1,162 @@
+.Title{
+    font-weight: 400;
+}
+
+.tb-100{
+    margin-top: 100px !important;
+}
+
+.tb-em{
+    margin-top: 2.05882em;
+}
+
+.bottom-padding{
+    padding-bottom: 100px;
+}
+
+.link-quickbooks{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.link-quickbooks:visited{
+    color: #ffffff;
+    font-weight: bold;
+}
+.link-quickbooks:hover{
+    color: #2aba54;
+    font-weight: bold;
+}
+.link-quickbooks-black{
+    color: #114B22;
+    font-weight: bold;
+}
+
+.link-quickbooks-black:visited{
+    color: #114B22;
+    font-weight: bold;
+}
+.link-quickbooks-black:hover{
+    color: #061f0c;
+    font-weight: bold;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.link-prudential{
+    color: #ffffff;
+    font-weight: bold;
+}
+.link-prudential:visited{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.link-prudential:hover {
+    color: #0078c4;
+    font-weight: bold;
+}
+.cooe{
+    color: #ffffff;
+    font-weight: bold;
+}
+.link-cooe{
+    color: #ffffff;
+    font-weight: bold;
+}
+.link-cooe:visited{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.link-cooe:hover {
+    color: #f85066;
+    font-weight: bold;
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: white;
+}
+
+.hoverwhite:hover{
+    color: black;
+}
+
+.home-padding-bottom{
+    padding-bottom: 15px !important;
+}
+
+.invisible{
+    border-top: 0px solid rgba(14, 14, 14, .1);
+}
+
+.fig{
+    font-size: 14px;
+}
+
+.front-type-prop {
+    font-weight: 450 !important;
+    margin-bottom: 2em;
+  }
+  
+  /* Apply font-size for non-mobile screens */
+  @media screen and (min-width: 768px) {
+    .front-type-prop {
+      font-size: 1.78em;
+    }
+  }
+
+.links-new{
+    font-size: 4em;
+}
+
+.title-top{
+    font-size: 1.78em;
+    color: white;
+    font-weight: 450 !important;
+}
+
+.title-top-black{
+    font-size: 1.78em;
+    color: black;
+    font-weight: 450 !important;
+}
+
+.mailphone-item-blacktext:hover{
+    color: black;
+}
+
+.iconcolor{
+    fill: white;
+}
+
+.animate{
+    animation: move .8s infinite;
+    position: relative;
+}
+@keyframes move {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 4px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.ptfix{
+    padding-bottom: 215px;
+}
+
+.babypadding{
+    padding-bottom: 10px;
+}
+
+.note{
+    font-style: italic;
+    color: #949494;
+}
