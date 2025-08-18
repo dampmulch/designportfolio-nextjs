@@ -259,7 +259,7 @@ export default function Home() {
           </div>
           
           <div className="container">
-            <div className="row">
+            <div>
               <div className="col-12 col-lg-10">
                 <div className="pt-70 pb-160">
                   <ul className="nav flex-column interactive-links interactive-links-style-2 text-white" data-show-duration="900" data-show-delay="150">
